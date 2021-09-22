@@ -1,0 +1,12 @@
+{
+  "program_id": "1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8",
+  "merchant_id": "016fd8c3-f677-a782-122d-2b55e30c93ce",
+  "type": "PURCHASE",
+  "amount": 12.5,
+  "currency_code": "USD",
+  "reference": "da040abf-314c-41fd-b556-2b1b8a5c9266TEST",
+  "stored_payment_instrument":  {
+    "id": "0177f8a2-6606-ca9d-cb2f-4e5ce78dc2e7-10",
+    "security_code": "123"
+  }
+}

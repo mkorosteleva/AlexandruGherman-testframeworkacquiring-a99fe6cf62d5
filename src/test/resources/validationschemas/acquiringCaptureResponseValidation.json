@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "program_id": {
+      "type": "string"
+    },
+    "merchant_id": {
+      "type": "string"
+    },
+    "terminal_id": {
+      "type": "string"
+    },
+    "currency_code": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "payment_instrument_id": {
+      "type": "string"
+    },
+    "originaltransaction_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "program_id",
+    "merchant_id",
+    "terminal_id",
+    "currency_code",
+    "amount",
+    "type",
+    "status",
+    "reference",
+    "payment_instrument_id",
+    "originaltransaction_id",
+    "created_at"
+  ]
+}

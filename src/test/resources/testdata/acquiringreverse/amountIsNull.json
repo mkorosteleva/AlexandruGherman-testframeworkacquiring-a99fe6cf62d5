@@ -1,0 +1,8 @@
+{
+  "program_id": "1b1476f8-3b30-4e94-8b8b-e7b312e6d5c8",
+  "merchant_id": "016fd8c3-f677-a782-122d-2b55e30c93ce",
+  "terminal_id": null,
+  "type": "REVERSAL",
+  "amount": null,
+  "reference": "da040abf-314c-41fd-b556-2b1b8a5c9266TEST"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "CARD",
+  "holder_name": "Jane Jones",
+  "number": "4264281511112228",
+  "expiration": {
+    "month": "09",
+    "year": "2025"
+  },
+  "security_code": "123",
+  "billing": {
+    "address": {
+      "country_code": "US",
+      "country_subdivision_code": "US-NY",
+      "city": "New York",
+      "postal_code": "33102",
+      "line1": "382 NE 191st St",
+      "line2": "Suite 300",
+      "county": "Ney York",
+      "street_name": "191st",
+      "street_type": "St",
+      "building_name": "New",
+      "building_number": "10",
+      "unit_number": "1"
+    }
+  }
+}

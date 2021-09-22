@@ -1,0 +1,26 @@
+{
+  "type": "CARD",
+  "holder_name": "",
+  "number": "",
+  "expiration": {
+    "month": "09",
+    "year": "2025"
+  },
+  "security_code": "",
+  "billing": {
+    "address": {
+      "country_code": "US",
+      "country_subdivision_code": "US-NY",
+      "city": "New York",
+      "postal_code": "33102",
+      "line1": "382 NE 191st St",
+      "line2": "Suite 300",
+      "county": "string",
+      "street_name": "string",
+      "street_type": "string",
+      "building_name": "string",
+      "building_number": "string",
+      "unit_number": "string"
+    }
+  }
+}

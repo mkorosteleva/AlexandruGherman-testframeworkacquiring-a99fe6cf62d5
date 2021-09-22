@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "holder_name": {
+          "type": "string"
+        },
+        "number_last4": {
+          "type": "string"
+        },
+        "expiration": {
+          "type": "object",
+          "properties": {
+            "year": {
+              "type": "string"
+            },
+            "month": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "year",
+            "month"
+          ]
+        },
+        "billing": {
+          "type": "object",
+          "properties": {
+            "address": {
+              "type": "object",
+              "properties": {
+                "country_code": {
+                  "type": "string"
+                },
+                "country_subdivision_code": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "postal_code": {
+                  "type": "string"
+                },
+                "line1": {
+                  "type": "string"
+                },
+                "line2": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "country_code",
+                "country_subdivision_code",
+                "city",
+                "postal_code",
+                "line1",
+                "line2"
+              ]
+            }
+          },
+          "required": [
+            "address"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "holder_name",
+        "number_last4",
+        "expiration",
+        "billing"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
